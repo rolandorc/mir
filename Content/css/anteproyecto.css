@@ -1,0 +1,50 @@
+﻿body {
+
+
+}
+.ph-center {
+  font-size: 2rem;
+  font-family: Georgia;
+
+}
+
+@include media-breakpoint-up(sm) {
+  .ph-center {
+    font-size: 1rem;
+     font-family: Georgia;
+
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .ph-center {
+    font-size: 2rem;
+      font-family: Georgia;
+
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .ph-center {
+    font-size: 3rem;
+      font-family: Georgia;
+
+  }
+}
+.timesnew{
+    font-family: 'Times New Roman';
+    font-size: 1.5rem;
+}
+
+.abstracttitle{
+    font-size: 1.5rem;
+     font-family: Georgia;
+}
+
+.pie{
+    font-size: 1rem;
+}
+
+.resumen{
+    text-transform:none;
+}
